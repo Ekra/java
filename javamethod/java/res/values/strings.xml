@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app-name">MobiApp</string>
+    <string name="welcomelogin">Login</string>
+    <string name="welcomeregister">Register</string>
+    <string name="loginemail">Email</string>
+    <string name="loginpassword">Password</string>
+    <string name="loginsubmit">Submit</string>
+    <string name="logincancel">Cancel</string>
+    <string name="regfname">Firstname</string>
+    <string name="regsname">secondname</string>
+    <string name="regphoneno">Phonenumber</string>
+    <string name="regpassword">Password</string>
+    <string name="regsubmit">Submit</string>
+    <string name="regcancel">Cancel</string>
+    <string name="hmno1">NumberOne</string>
+    <string name="hmno2">NumberTwo</string>
+    <string name="hmresult">Result:</string>
+    <string name="hmadd">Add</string>
+    <string name="hmsubtract">Subtract</string>
+    <string name="hmdivide">Divide</string>
+    <string name="hmmultiply">Multiply</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_homescreen">Homescreen</string>
+
+</resources>

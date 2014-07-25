@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvregfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regfname" />
+
+    <EditText
+        android:id="@+id/etregfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvregsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regsname" />
+
+    <EditText
+        android:id="@+id/etregsname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvregphoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regphoneno" />
+
+    <EditText
+        android:id="@+id/etregphoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tvregpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regpassword" />
+
+    <EditText
+        android:id="@+id/etregpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btregsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regsubmit" />
+
+    <Button
+        android:id="@+id/btregcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regcancel" />
+
+</LinearLayout>
